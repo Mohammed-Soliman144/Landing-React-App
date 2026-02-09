@@ -6,19 +6,19 @@ export default function Projects() {
             <h2 className="capitalize text-white text-3xl md:text-6xl font-bold mb-15 text-center tracking-wide">my projects</h2>
             <div className="cards grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-between items-center gap-12 ">
                 <Card 
-                    imgSrc="../../public/ai-saas.png" 
+                    imgSrc="/ai-saas.png" 
                     imgAlt="AI Saas Platform" 
                     contentTitle="ai saaS platform"
                     contentDescription="A modern SaaS platform built with Next.js and OpenAI  intergration, featuring real-time AI-powered content generation and analytics."
                     items={['Next.js', 'OpenAI', 'TailwindCSS']}/>
                 <Card 
-                    imgSrc="../../public/social-media.png" 
+                    imgSrc="/social-media.png" 
                     imgAlt="Social Media Dashboard" 
                     contentTitle="Social Media Dashboard"
                     contentDescription="A comprenhensive social media management dashboard with analytics, scheduling, and engagement tracking features."
                     items={['React', 'Node.js', 'MonogoDB']}/>
                 <Card 
-                    imgSrc="../../public/stopwatch.png" 
+                    imgSrc="/stopwatch.png" 
                     imgAlt="Timer App" 
                     contentTitle="productivity timer"
                     contentDescription="A sleek productivity timer application with customizable work sessions, statistics tracking, and dark mode support."
